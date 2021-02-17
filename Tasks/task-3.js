@@ -8,6 +8,6 @@ function flattenAndSort(array) {
           num.push(array[a][b])
         }
       }
-    return num.sort((a,b) => a-b)
+      return num.sort((a,b) => a-b)
     }
 }  

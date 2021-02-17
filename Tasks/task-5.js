@@ -4,4 +4,4 @@ function sumPairs(ints, s) {
       if (seen[s - ints[i]]) return [s - ints[i], ints[i]]
       seen[ints[i]] = true
     }
-  }
+}

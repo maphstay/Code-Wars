@@ -1,4 +1,4 @@
-function flattenAndSort(array) {
+function flattenandSort(array) {
     var num = []
     if (array.length < 1) {
       return array
